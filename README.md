@@ -1,5 +1,9 @@
 # Instagram Downloader
- A Instagram downloader with python and tkinter
+ A Instagram downloader with python
+ 
+ ## Function:
+ - Download Images
+ - Download Videos
 
 
 ## Python Libraries Used
@@ -13,6 +17,7 @@
 
 
 ## Installation of python libraries
+Enter the command lines into `command prompt` of the computer
 - Pillow
 ```
 $ pip install pillow
