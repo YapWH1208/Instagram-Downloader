@@ -5,11 +5,29 @@
 ## Python Libraries Used
 - Tkinter
 - Pillow
+- InstaLoader
+- tqdm
+- requests
+- re
+- datetime
 
 
-## Installation of Pillow
+## Installation of python libraries
+- Pillow
 ```
 $ pip install pillow
+```
+- Instaloader
+```
+$ pip install instaloader
+```
+- tqdm
+```
+$ pip install tqdm
+```
+- requests
+```
+$ pip install requests
 ```
 
 
