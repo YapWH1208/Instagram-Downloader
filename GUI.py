@@ -20,15 +20,15 @@ window.iconbitmap("GUI/Instagram.ico")
 
 # Picture
 Picture_Open = Image.open("GUI/picture.png")
-Profile_Picture_Open = Image.open("GUI/profile picture.png")
+Video_Open = Image.open("GUI/video.png")
 Color_Open = Image.open("GUI/color.png")
 
 Picture_Resize = Picture_Open.resize((50, 50))
-Profile_Picture_Resize = Profile_Picture_Open.resize((50, 50))
+Video_Resize = Video_Open.resize((50, 50))
 Color_Resize = Color_Open.resize((17, 17))
 
 Picture_Image = ImageTk.PhotoImage(Picture_Resize)
-Profile_Picture_Image = ImageTk.PhotoImage(Profile_Picture_Resize)
+Video_Image = ImageTk.PhotoImage(Video_Resize)
 Color_Image = ImageTk.PhotoImage(Color_Resize)
 
 # Frame
@@ -99,13 +99,12 @@ Instagram_URL_Entry.pack(side=LEFT)
 Colour_Picker_Button = Button(Instagram_URL_Frame, command=colour_picker, font=("Delargo DT Black Italic", 10), image=Color_Image)
 Colour_Picker_Button.pack(side=RIGHT)
 
-Download_Image_Video_Button = Button(Button_Frame, text="Download Image and Video", width=200,
-                                     image=Picture_Image, compound=TOP, font=("Delargo DT Black Italic", 10), bg="white", fg="#AA11ED")
-Download_Image_Video_Button.pack(side=LEFT)
+Download_Picture_Button = Button(Button_Frame, text="Download Picture", width=200, image=Picture_Image, compound=TOP,
+                               font=("Delargo DT Black Italic", 10), bg="white", fg="#AA11ED")
+Download_Picture_Button.pack(side=LEFT)
 
-Download_Profile_Picture_Button = Button(Button_Frame, text="Download Profile Picture", width=200,
-                                         image=Profile_Picture_Image, compound=TOP, font=("Delargo DT Black Italic", 10),
-                                         bg="white", fg="#AA11ED")
-Download_Profile_Picture_Button.pack(side=RIGHT)
+Download_Video_Button = Button(Button_Frame, text="Download Video", width=200, image=Video_Image, compound=TOP,
+                               font=("Delargo DT Black Italic", 10), bg="white", fg="#AA11ED")
+Download_Video_Button.pack(side=RIGHT)
 
 window.mainloop()
