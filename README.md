@@ -14,6 +14,7 @@
 - requests
 - re
 - datetime
+- subprocess
 
 
 ## Installation of python libraries
