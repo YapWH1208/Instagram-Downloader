@@ -38,11 +38,26 @@ $ pip install requests
 
 
 ## How to Use
-1. Unzip the Instagram.Downloader.zip
-2. Double click `main.py`
-3. Insert the post's URL into the entry of the program
-4. Wait
-5. The Picture/Video is downloaded into the file
+How to Use
+1. Unzip the `Instagram Downloader.zip`
+2. Install the font for the GUI by double clicking `delargodtblackitalic.ttf` and pressing install
+3. Double Click `main.py`
+4. Login the account with
+- Account name : 
+```
+ait102.python.proj.g3
+```
+- Password:
+```
+weloveait102
+```
+5. Wait...
+6. When the GUI pops out, insert the link in the entry column.
+7. Click the button to `download image` or `download video`.
+8. Go back to the terminal, enter `yes` to download or `no` to abort
+9. Wait
+10. When `Done` pops out at the bottom of the GUI, you download is done.
+11. Go to the `download` folder for the image or video.
 
 
 ## For Nicer Look (In the GUI)
